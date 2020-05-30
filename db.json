@@ -1,5 +1,5 @@
 {
-  "HostNodeDefinition": [
+  "HostNodeDefinitions": [
     {
       "HostName": "DEFAULT",
       "Label": "Default",
@@ -10,5 +10,38 @@
       "SeedDataLock": 1,
       "DeletedFlag": false
       }
-      ]
+      ],
+  "RegistryDefinitions":[
+   {
+      "RegistryName": "DEFAULT",
+      "Label": "Products",
+      "Description": "This menu contains user facing menu items.",
+      "HostName": "DEFAULT",
+      "SeedDataLock": 1,
+      "DeletedFlag": false
+   }
+  ],
+  
+  "RegistryItemDefinitions":[
+  {
+      "RegistryName": "DEFAULT",
+      "ItemName": "SECURL_LANDINGPAGE",
+      "ItemType": "I",
+      "ParentName": "NV_WIDGET_RELATED_LINKS",
+      "Label": "Login",
+      "Description": "Landing page that has sign in and register options for anonymous users",
+      "SequenceNumber": 0,
+      "ValidFromDate": "1900-01-01T00:00:00-08:00",
+      "ValidToDate": "4712-12-31T00:00:00-08:00",
+      "DisplayMode": "NONE",
+      "SecurityMode": "P",
+      "TargetType": "JET",
+      "HostName": "DEFAULT",
+      "TargetUri": null,
+      "TargetLocation": "DFLT",
+      "SeedDataLock": 1,
+      "DeletedFlag": false,
+      "ModuleId": "123"
+}
+  ]
   }

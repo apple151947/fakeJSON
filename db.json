@@ -1,0 +1,14 @@
+{
+  "HostNodeDefinition": [
+    {
+      "HostName": "DEFAULT",
+      "Label": "Default",
+      "Description": "Rag.",
+      "ContextUri": null,
+      "IsLocal": "Y",
+      "IsActive": "Y",
+      "SeedDataLock": 1,
+      "DeletedFlag": false
+      }
+      ]
+  }
